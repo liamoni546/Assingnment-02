@@ -14,7 +14,10 @@ body{
     width: 140px;
     font-size: 1rem;
     font-weight: 600;
+    background: linear-gradient(#F7E93F,#F97E77,#FA349E,#CC05D2,#9100F8);
+    color: white;
 }
+
 /* nav section */
 nav,.view{
     max-width: 1600px;
@@ -77,4 +80,112 @@ padding-top: 30px;  text-align: center;
     padding-top: 50px;
     gap: 50px;
     border-top: 1px solid rgba(60, 59, 59, 0.869);
+}
+/* card */
+.card-containar{
+margin-top: 80px;
+max-width: 1350px;
+margin: 0px auto;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+.card{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 60px;
+    border-radius: 40px;
+}
+.card-title{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.card-head{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.card-para{
+    font-size: 1rem;
+    color: gainsboro;
+
+    
+}
+.box1{
+    grid-row: span 2;
+
+}
+.box1 img{
+    padding-top: 80px;
+    margin-top: 30px;
+}
+.box2,.box3,.box4{
+    grid-column: span 2;
+}
+
+
+/* Featured */
+.Featured-containar{
+    margin-top: 80px;
+    background-color:rgba(26, 11, 46, 1);
+
+}
+.Featured-head{
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* meet */
+.host{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.card-meet{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    
+}
+.footer-containar{
+    text-align: center;
+    margin-top: 80px;
+
+}
+.footer-containar h1,div,p{
+    padding-bottom: 30px;
+}
+.footer-containar h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.footer-containar p{
+    color: rgba(153, 148, 148, 0.869) ;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
 }
