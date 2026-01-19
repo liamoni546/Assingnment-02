@@ -3,4 +3,78 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(26 , 11, 46,1);
+    color: white;
+}
+
+.btn{
+    border-radius: 30px;
+    padding: 16px;
+    width: 140px;
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* nav section */
+nav,.view{
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.manu-contain{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.logo{
+    color: ;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.links{
+    font-size:1rem ;
+    font-weight: 600;
+}
+
+/* bannar section */
+.bannar{
+    background-image:url(hero-bg.png);    
+}
+
+
+
+
+
+
+
+
+/* about */
+.about{
+margin-top: 50px;
+}
+
+.contain{
+padding-top: 30px;  text-align: center;  
+}
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.para{
+    font-size: 1rem;
+    color: rgba(153, 148, 148, 0.869);
+    
+}
+
+
+
+.view{
+    margin-top: 60px;
+    padding-top: 50px;
+    gap: 50px;
+    border-top: 1px solid rgba(60, 59, 59, 0.869);
+}
