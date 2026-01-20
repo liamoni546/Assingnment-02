@@ -240,6 +240,7 @@ margin: 0px auto;
     font-size: 4rem;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 30px;
 }
 .featured-card-grid{
      max-width: 1600px; 
