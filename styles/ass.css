@@ -417,6 +417,7 @@ footer{
     }
     .icon{
         grid-template-columns: repeat(2,60px);
+        column-gap: 5px;
     }
     .title,.Featured-epi,.host,.footer-containar h1{
         font-size: 2.3rem;
