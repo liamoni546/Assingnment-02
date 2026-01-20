@@ -135,8 +135,15 @@ nav,.view{
     border-radius: 70px;
     position: absolute;
     padding-left: -60px;
+    transition: trasform 2s ease,background-color 1.2s linear,scale 1s ease;
 
     
+    
+}
+.tooltip:hover{
+    transform: rotate(380deg);
+    background-color: darkgreen;
+    scale: 1.5;
     
 }
 
