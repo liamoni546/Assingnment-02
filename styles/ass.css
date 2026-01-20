@@ -167,8 +167,14 @@ footer{
     
 }
 .footer-containar{
+    max-width: 1600px;
+    margin: 0px auto;
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 30px;
+    background-image: url('footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 .footer-containar h1,div,p{
@@ -188,4 +194,10 @@ footer{
     align-items: center;
     gap: 20px;
     
+}
+.gradient{
+  background: -webkit-linear-gradient(#F97E77,#F7E93F,#CC05D2,#FA349E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      
 }
