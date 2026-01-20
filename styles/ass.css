@@ -32,12 +32,14 @@ nav,.view{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    
 }
 
 .manu-contain{
     display: flex;
     list-style: none;
     gap: 32px;
+    
 }
 .logo{
     color: ;
@@ -47,6 +49,7 @@ nav,.view{
 .links{
     font-size:1rem ;
     font-weight: 600;
+    margin-top: 20px;
 }
 .ham{
     display: none;
